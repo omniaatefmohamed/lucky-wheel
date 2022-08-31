@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <title>Lucky Wheel</title>
+  </head>
+  <body>
+    <div class="mainbox" id="mainbox" onclick="spin()">
+      <div class="box" id="box">
+        <div class="box1">
+          <span class="font span1"><b>Free <br/> Desert Safari</b></span> 
+          <span class="font span2"><b>FREE <br/>  Expo Ticket </b></span>
+          <span class="font span3"><b>10% <br> OFF <br> AIN DUBAI</b></span>
+          <span class="font span4"><b>20% <br>OFF <br/><small> HELICOPTER <br/> TOUR </small></b></span>
+          <span class="font span5"><b>10% <br/> OFF <br/> <small>DUBAI CRIUSE</small></b></span>
+        </div>
+        <div class="box2">
+          <span class="font span1"><b>10% <br/> OFF <br/> lA PERLE</b></span>
+          <span class="font span2"><b>10% <br/> OFF <br/> WILD WADI </b></span>
+          <span class="font span3"><b>NO WIN </b></span>
+          <span class="font span4"><b>10% <br/> Hot Air Balloon</b></span>
+          <span class="font span5"><b> FREE <br/> BURJ <br/><small>KHALIFA</small></b> </span>  
+        </div>
+      </div>
+      <button class="spin" onclick="spin()" id="spin">SPIN</button>
+    </div>
+    <audio controls="controls" id="applause" src="assets/sound/applause.mp3" type="audio/mp3"></audio>
+    <audio controls="controls" id="wheel" src="assets/sound/wheel.mp3"  type="audio/mp3"></audio>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery-easing.min.js"></script>
+    <script src="assets/js/sweet-alert.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    </body>
+</html>
